@@ -1,0 +1,33 @@
+#jumbotron{
+    background-color: #98b0c5;
+    padding-bottom: 10px;
+}
+h1, h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    }
+.thePara{
+    font-family: 'Lato', sans-serif;
+    font-weight: thin;
+    font-style: thin;
+}
+.btns{
+    background-color: #98b0c5;
+    padding: 30px;
+}
+.btn{
+    font-family: 'Lato', sans-serif;
+    font-weight: thin;
+    font-style: thin;
+    margin: 2px;
+}
+footer{
+    background-color: darkgoldenrod;
+    padding: 30px;
+}
+
+.pLogo{
+    height: 100px;
+    width: 100px;
+}

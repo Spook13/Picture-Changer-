@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <title>Week One Homework</title>
+</head>
+<body>
+    <!-- Header -->
+    <div id="jumbotron">
+        <img class="mx-auto d-block" src="imgs/logo.png" alt="warframe logo">
+        <h1 class="text-center mt-3">Know Your Frame</h1>
+    </div>
+    <!-- End of Header -->
+
+    <!-- Content -->
+    <div id="container">
+
+        <!-- Rows -->
+        <div class="container">
+            <div class="row">
+
+                <!-- Column 1 -->
+                <div class="col-lg-8 col-md-12 mt-5">
+                    <img id="theImage" src="imgs/ash.png" alt="ash warframe" width="512" height="512">
+                </div>
+
+                <!-- Column 2 -->
+                <div class="col-lg-4 mt-5">
+                    <p id="ashPara" class="thePara"> 
+                        <!-- Ash -->
+                        <b>Ash</b> is a fast, maneuverable Warframe that possesses a high degree of survivability in the field. Fleet movement complements deadly tools of assassination, making Ash a perfect balance between killing potency and stealth.
+                        <br>
+                        <br>
+                        Ash was originally named Smoke, and before that, simply Ninja. He is still referred to as Ninja internally in the game files.
+                        <br>
+                        <br>
+                        Ash was the first Warframe that had innate physical weapons associated with his frame, in this case his hidden blades he uses in his Blade Storm ability. The second frame with this innate physical weapon was Mesa and her Regulator pistols she uses in her Peacemaker ability.
+                    </p>
+
+                    <!-- Banshee -->
+                    <p id="bansheePara" class="thePara" style="display:none"> 
+                        <b>Banshee</b> is a sound-themed Warframe. Sophisticated acoustic powers enable Banshee to pinpoint enemy positions and weak spots, suppress gunfire sounds in her surrounding environment, and even emit trembling vibrations to topple her foes. 
+                        <br>
+                        <br>
+                        The name Banshee comes from the Irish mythological creature which wails loudly if someone is about to die. This corresponds to the Warframes powers as they are all based on sound.
+                        <br>
+                        <br>
+                        The characteristic large spike on Banshee's left shoulder is considered a customizable Armor part, and will be removed if any other arm plates are used. This makes it possible to make a symmetrical Banshee.
+                    </p>
+                    
+                    <!-- Ember -->
+                    <p id="emberPara" class="thePara" style="display:none"> 
+                        Radiant starfire light our worlds ablaze. Igneous as the burning sun, <b>Ember's</b> fiery rage engulfs her foes and scatters their cinders in the solar wind. Empress of elemental flame, scorch the land with her wildfires. Control her fury or fuel the heat to unleash destructive incineration, leaving charred corpses and ashes adrift in her scarlet sea. 
+                        <br>
+                        <br>
+                        As seen from concept art and beta game footage, Ember was originally male.
+                        <br>
+                        <br>
+                        Ember is based around the Phoenix and Vermilion firebirds as can be seen by the naming of the helmets and deluxe skin, and the way the feet are designed like bird claws.
+                    </p>
+
+                    <!-- Excalibur -->
+                    <p id="excaliburPara" class="thePara" style="display:none"> 
+                        <b>Excalibur</b> is a sword-themed Warframe. With the power to channel energy into his summoned blade, he is a mobile swordsman with potent methods of execution. 
+                        <br>
+                        <br>
+                        Excalibur is named after the legendary sword of Arthur; King of the Britons. Many of his alternate helmets feature names based off Arthurian legend.
+                        <br>
+                        <br>
+                        Excalibur is similar in design to Hayden Tenno's suit from Digital Extremes' previous game Dark Sector. This is further reinforced with the Proto-Armor Skin, which is a near-exact copy of that very suit.
+                    </p>
+
+                    <!-- Frost -->
+                    <p id="frostPara" class="thePara" style="display:none"> 
+                        <b>Frost</b> is a slow and heavily-armored Warframe that is able to utilize offensive and defensive skills to both his own and his team's advantage. He commands furious blizzards that pummel and freeze his enemies while providing respite and solace for his allies. 
+                        <br>
+                        <br>
+                        Frost's design is based on concept artwork for an unused boss intended to appear in DE's previous game, Dark Sector.
+                        <br>
+                        <br>
+                        The large, dark ports on Frost and Frost Prime's arms are considered customizable Armor parts, and will be removed if any other arm plates are used.
+                    </p>
+
+                    <!-- Gauss -->
+                    <p id="gaussPara" class="thePara" style="display:none"> 
+                        Engines ready for ignition. Coolant circulation systems online. Revved into kinetic overdrive, the speedster <b>Gauss</b> leaves his competition amidst the dust. Accelerate and race across vast landscapes or seas. Recharge power from hostile strikes and reduce the force of their impact. Flash-freeze enemies dead in their tracks, then spontaneously combust his foes, as he paves the path to a swift victory.
+                        <br>
+                        <br>
+                        Gauss is named after Carl Friedrich Gauss, the German mathematician and physicist who made significant contributions to many fields in mathematics and sciences. Most notably in Electromagnetism, Differential Geometry, Algebra, and Statistics.
+                        <br>
+                        <br>
+                        Gauss is the first Warframe to be featured in the Leverian.
+                    </p>
+
+                    <!-- Grendel -->
+                    <p id="grendelPara" class="thePara" style="display:none"> 
+                        Indulge upon the stench of battle as <b>Grendel</b> the voracious gourmand, greedily swallowing armies whole into his fathomless maw. Corpulent and courageous, he consumes prey to invigorate kindred warriors, or disgorges the eaten out drenched in putrid acidic bile. Stampede through strongholds as a spherical menace, leaving cadavers in the wake crushed by his thunderous quake.
+                        <br>
+                        <br>
+                        Grendel is named for the villainous giant in the epic poem Beowulf. Among Grendel's epithets is "the destroyer and devourer of our human kind," and he is described as eating the flesh from the humans he kills.
+                        <br>
+                        <br>
+                        Grendel's belly visually enlarges and gains jiggle physics when enemies are eaten and stored with Feast.
+                    </p>
+
+                    <!-- Ivara -->
+                    <p id="ivaraPara" class="thePara" style="display:none"> 
+                        Equipped with a diverse selection of arrows, deft hands, shroud of stealth and an exalted bow, the crafty <b>Ivara</b> infiltrates hostile territory with deception and diversion, and eliminates threats with a shot from beyond. 
+                        <br>
+                        <br>
+                        Ivara is a name derived from the Old Norse word Ívarr, which means "tree warrior". In Norse legend, the similarly named Ivar the Boneless was a legendary warrior heralded as a deadly archer.
+                        <br>
+                        <br>
+                        Ivara's visual design was influenced by tree frogs, with her default color scheme sharing their bright coloration.
+                    </p>
+
+                    <!-- Loki -->
+                    <p id="lokiPara" class="thePara" style="display:none"> 
+                        <b>Loki</b> is a fragile but fast manipulator Warframe. He has little in the way of direct damage abilities, instead focusing on the arts of distraction, deception, sabotage, relocation and stealth. 
+                        <br>
+                        <br>
+                        His name is drawn from the Norse god Loki, who was generally seen as a mischievous, sly trickster. The Loki Warframe has abilities that further strengthen this connection, as Loki is able to turn invisible and create decoys of himself, amongst other abilities.
+                        <br>
+                        <br>
+                        Loki was one of the three starting Warframes, along with Excalibur and Mag, before being replaced by Volt.
+                    </p>
+
+                    <!-- Mag -->
+                    <p id="magPara" class="thePara" style="display:none"> 
+                        <b>Mag</b> is a Warframe based on magnetic force. She boasts high shield strength in exchange for reduced health, and her abilities make her a potent medium for crowd control and manipulation. She is one of three starter options for new players 
+                        <br>
+                        <br>
+                        Mag's given name is inspired from a shortened form of magnetism, used in a feminine fashion. Other possible inspirations include the concept of magnitude, a tribute to her affinity for dealing "in extremes".
+                        <br>
+                        <br>
+                        Both of Mag's alternate helmets are named after the Gauss projectile accelerator consisting of one or more coils used as linear electromagnets to accelerate a magnetic or conducting projectile to high velocity. Weapons using said mechanic are commonly referred to as either Gauss guns or Coilguns.
+                    </p>
+
+                    <!-- Nekros -->
+                    <p id="nekrosPara" class="thePara" style="display:none"> 
+                        <b>Nekros</b> is a Warframe with powers likened to that of necromancers and dark arts practitioners, his abilities exploiting the vulnerabilities of the living and the corpses of the dead. 
+                        <br>
+                        <br>
+                        Nekros is Swedish for Necrosis which is a medical term for the death of most or all of the cells in an organ or tissue due to disease, injury, or failure of the blood supply.
+                        <br>
+                        <br>
+                        Nekros appears to have six fingers, however the last one only has one bone.
+                    </p>
+
+                    <!-- Nova -->
+                    <p id="novaPara" class="thePara" style="display:none"> 
+                        <b>Nova</b> is a high-tech, antimatter themed Warframe. She is somewhat fragile, lacking any powerful defensive abilities and having low shield capacity and moderate health. In return, she features extremely powerful offensive abilities capable of demolishing entire waves of enemies.
+                        <br>
+                        <br>
+                        The term nova refers to the violent outbursts of energy that occur in cataclysmic variable stars.
+                        <br>
+                        <br>
+                        According to Nova's profile, this Warframe was a result of Tenno High Council research. This is widely believed to be a nod to the Design Council that aided in Nova's creation.
+                    </p>
+
+                    <!-- Nyx -->
+                    <p id="nyxPara" class="thePara" style="display:none"> 
+                        <b>Nyx</b> is a psychic-themed Warframe. Her abilities allow her to disrupt movement and coordination within enemy ranks, making her a formidable ally in battle.
+                        <br>
+                        <br>
+                        Nyx is the name of the Greek goddess of the night. During development, Nyx originally went by the name of "Jade".
+                        <br>
+                        <br>
+                        Apart from the helmet and gender, Nyx's overall design is almost identical to Excalibur. This was the result of a scrapped attempt to create alternative genders to the Warframes during the pre-alpha stages of the game.
+                    </p>
+
+                    <!-- Rhino -->
+                    <p id="rhinoPara" class="thePara" style="display:none"> 
+                        <b>Rhino</b> is a heavily armored Warframe with the strength and fortitude of his reckless, stampeding namesake. Rhino trades speed for power and is designed to fill the tank role in a cell, with the capability to charge into the fray, draw enemy fire, and bend the battlefield to his will through sheer brute force.
+                        <br>
+                        <br>
+                        "The Profit" trailer showcases the release of Warframe on the PS4 and includes Rhino as one of the screen-time characters in the plot. The trailer shows him punching his enemies without weapons, dealing tremendous damage. He is also shown not carrying any melee weapon.
+                        <br>
+                        <br>
+                        Rhino is the fifth Frame to have a Prime.
+                    </p>
+
+                    <!-- Saryn -->
+                    <p id="sarynPara" class="thePara" style="display:none"> 
+                        Unleashing an endless epidemic of contagious spores, the mistress of malady <b>Saryn</b> eradicates her foes through horrific decay. Erupt caustic pustules to spread her disease, shed deceptive husks to draw enemy fire, as she injects lethal venom and exhales deadly viruses to cleanse the System with her toxic touch.
+                        <br>
+                        <br>
+                        After the poll on the founders forum she was to be named after Sarin, which is a colorless, odorless liquid, used as a chemical weapon owing to its extreme potency as a nerve agent. It was altered to Saryn when a first responder to a sarin attack suggested a name tweak, along with Sarin sounding too masculine.
+                        <br>
+                        <br>
+                        She is the first female Warframe whose base stats defy a trend of fragility, having health and armor values that exceed those of many male Warframes.
+                    </p>
+
+                    <!-- Trinity -->
+                    <p id="trinityPara" class="thePara" style="display:none"> 
+                        <b>Trinity</b> is a support-based Warframe. Her abilities favour restoration and preservation over destruction. Draining powers turn her enemies into conduits of life and energy, while defensive powers redirect and dissipate attacks upon herself and her team.
+                        <br>
+                        <br>
+                        The word Trinity is the name for the Christian doctrine which holds that there is one God in three Divine Persons, the Father, son and the Holy Spirit. It could also be in reference to the classic "holy trinity" in MMO parties: tank, DPS, healer.
+                        <br>
+                        <br>
+                        The names of her alternate helmets are based on notion related with healing and medicine.
+                    </p>
+
+                    <!-- Umbra -->
+                    <p id="umbraPara" class="thePara" style="display:none"> 
+                        <b>Excalibur Umbra</b> is the Umbra variant of Excalibur, sporting higher armor and energy, as well as three polarities while losing a Vazarin polarity. Unique to Umbra is his display of sentience, allowing him to fight on his own when not piloted by the Operator.
+                        <br>
+                        <br>
+                        Excalibur Umbra is the first Warframe confirmed to originally be a "human being". He is also the first frame to have had his face exposed due to damage to his helmet. Ballas confirms that Warframes are created from human subjects as Infested-hybrids cultivated by the Helminth.
+                        <br>
+                        <br>
+                        It was revealed at TennoCon 2018's Sound Panel that Excalibur Umbra's howls were voiced by [DE]Steve Sinclair, Game Director of Warframe.
+                    </p>
+
+                    <!-- Valkyr -->
+                    <p id="valkyrPara" class="thePara" style="display:none"> 
+                        <b>Valkyr</b> is a berserker-themed Warframe. Driven by feral rage, her attacks rend her prey with fury and ferociousness, while her tortured cries break the imposing silence of the Tenno presence.
+                        <br>
+                        <br>
+                        "Valkyr" is derived from Valkyrie. According to Norse Mythology, the Valkyries were a host of divine creatures in service of the gods that brought the "chosen" among the fallen up to Valhalla.
+                        <br>
+                        <br>
+                        Both her Warframe Profile video and in-game description verify that she's a product of the Zanuka Project.
+                    </p>
+
+                    <!-- Vauban -->
+                    <p id="vaubanPara" class="thePara" style="display:none"> 
+                        Ingenious contraptions contrived with an innovative mind. Assert control over the battlefield as the tactician <b>Vauban</b>, executing his combat schematics with lethal precision. Mobilize his armada of electrocuting drones to patrol wherever he treads. Besiege the frontlines with his array of minefields designed for suppression and support. Devastate enemy forces with deadly disintegration from orbit, as a merciful release from his technological prison and fortress combined.
+                        <br>
+                        <br>
+                        Vauban was named after the French military engineer, Sébastien Le Prestre de Vauban.
+                        <br>
+                        <br>
+                        Vauban used to be called "Trollban" by the community due to Vortex affecting players as well for a short time after his release, as well as the potential of trolling with Bounce.
+                    </p>
+
+                    <!-- Volt -->
+                    <p id="voltPara" class="thePara" style="display:none"> 
+                        <b>Volt</b> has the power to wield and bend electricity. He is highly versatile, armed with powerful abilities that can damage enemies, provide cover and complement the ranged and melee combat of his cell. The electrical nature of his abilities make him highly effective against the Corpus, with their robots in particular. He is one of three starter options for new players.
+                        <br>
+                        <br>
+                        The volt is a measure of electrical potential, a type of potential energy that could be released if an electrical current is allowed to flow, hence Volt's electrical essence.
+                        <br>
+                        <br>
+                        Volt's default energy color appears as deep orange-yellow on his body, but the color of any electricity he emits is a darker blue/purple
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- End of Rows -->
+
+        <div class="btns mt-5 mb-3 text-center d-block">
+            <h3 class="text-center ">Frame Options</h3>
+            <!-- Buttons -->
+                <!-- Ash -->
+                <input type="button" class="btn btn-outline-dark" name="Ash" value="Ash" onclick="makeAsh()">
+
+                <!-- Banshee -->
+                <input type="button" class="btn btn-outline-dark" name="Banshee" value="Banshee" onclick="makeBanshee()">
+
+                <!-- Ember -->
+                <input type="button" class="btn btn-outline-dark" name="Ember" value="Ember" onclick="makeEmber()">
+
+                <!-- Excalibur -->
+                <input type="button" class="btn btn-outline-dark" name="Excalibur" value="Excalibur" onclick="makeExcalibur()">
+
+                <!-- Frost -->
+                <input type="button" class="btn btn-outline-dark" name="Frost" value="Frost" onclick="makeFrost()">
+
+                <!-- Gauss -->
+                <input type="button" class="btn btn-outline-dark" name="Gauss" value="Gauss" onclick="makeGauss()">
+
+                <!-- Grendel -->
+                <input type="button" class="btn btn-outline-dark" name="Grendel" value="Grendel" onclick="makeGrendel()">
+
+                <!-- Ivara -->
+                <input type="button" class="btn btn-outline-dark" name="Ivara" value="Ivara" onclick="makeIvara()">
+
+                <!-- Loki -->
+                <input type="button" class="btn btn-outline-dark" name="Loki" value="Loki" onclick="makeLoki()">
+
+                <!-- Mag -->
+                <input type="button" class="btn btn-outline-dark" name="Mag" value="Mag" onclick="makeMag()">
+
+                <!-- Nekros -->
+                <input type="button" class="btn btn-outline-dark" name="Nekros" value="Nekros" onclick="makeNekros()">
+
+                <!-- Nova -->
+                <input type="button" class="btn btn-outline-dark" name="Nova" value="Nova" onclick="makeNova()">
+
+                <!-- Nyx -->
+                <input type="button" class="btn btn-outline-dark" name="Nyx" value="Nyx" onclick="makeNyx()">
+
+                <!-- Rhino -->
+                <input type="button" class="btn btn-outline-dark" name="Rhino" value="Rhino" onclick="makeRhino()">
+
+                <!-- Saryn -->
+                <input type="button" class="btn btn-outline-dark" name="Saryn" value="Saryn" onclick="makeSaryn()">
+
+                <!-- Trinity -->
+                <input type="button" class="btn btn-outline-dark" name="Trinity" value="Trinity" onclick="makeTrinity()">
+
+                <!-- Umbra -->
+                <input type="button" class="btn btn-outline-dark" name="Umbra" value="Umbra" onclick="makeUmbra()">
+
+                <!-- Valkyr -->
+                <input type="button" class="btn btn-outline-dark" name="Valkyr" value="Valkyr" onclick="makeValkyr()">
+
+                <!-- Vauban -->
+                <input type="button" class="btn btn-outline-dark" name="Vauban" value="Vauban" onclick="makeVauban()">
+
+                <!-- Volt -->
+                <input type="button" class="btn btn-outline-dark" name="Volt" value="Volt" onclick="makeVolt()">
+            <!-- End of Buttons -->
+        </div>
+    </div>
+
+<script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>    
+</body>
+</html>
